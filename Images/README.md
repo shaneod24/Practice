@@ -1,1 +1,1 @@
-Thisn folder is for images
+This folder is for images
