@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T15:32:10.074Z" agent="5.0 (Windows)" etag="4EsKcguo4nCqepaoqRP6" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-17T15:41:26.665Z" agent="5.0 (Windows)" etag="DjfKdX_aQgNRX_tY90rK" version="13.7.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -68,7 +68,7 @@
         <mxCell id="f8ZMk2chCt_CFVTAONVA-23" value="Purchase History" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="250" y="160" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="f8ZMk2chCt_CFVTAONVA-24" value="1-Many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-28" target="f8ZMk2chCt_CFVTAONVA-32">
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-24" value="1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-28" target="f8ZMk2chCt_CFVTAONVA-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f8ZMk2chCt_CFVTAONVA-25" value="1-Many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-28" target="f8ZMk2chCt_CFVTAONVA-30">
@@ -88,17 +88,148 @@
         <mxCell id="f8ZMk2chCt_CFVTAONVA-29" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="410" y="160" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="f8ZMk2chCt_CFVTAONVA-30" value="Shopping History" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-30" value="User Prompts" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="410" y="160" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="f8ZMk2chCt_CFVTAONVA-31" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="530" y="160" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="f8ZMk2chCt_CFVTAONVA-32" value="Search History" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-32" value="User ID" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="530" y="160" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="f8ZMk2chCt_CFVTAONVA-33" value="Purchase History" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-33" value="Shopping wants or needs" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="640" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-34" value="1-Many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-38" target="f8ZMk2chCt_CFVTAONVA-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-35" value="1-Many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-38" target="f8ZMk2chCt_CFVTAONVA-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-38" target="f8ZMk2chCt_CFVTAONVA-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-37" value="1-Many" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f8ZMk2chCt_CFVTAONVA-36">
+          <mxGeometry x="-0.2833" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-38" value="Amazon Prime" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="145" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-39" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="25" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-40" value="User Clicks" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="25" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-41" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="145" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-42" value="Shopping Habits" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="145" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-43" value="Searches" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="255" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-44" value="*On a per case basis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="50" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-65" value="1-Many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-69" target="f8ZMk2chCt_CFVTAONVA-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-66" value="1-Many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-69" target="f8ZMk2chCt_CFVTAONVA-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-69" target="f8ZMk2chCt_CFVTAONVA-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-68" value="1-Many" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f8ZMk2chCt_CFVTAONVA-67">
+          <mxGeometry x="-0.2833" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-69" value="Amazon TV" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="535" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-70" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="415" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-71" value="Genre" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="415" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-72" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="535" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-73" value="Title" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="535" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-74" value="Watch History" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="645" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-75" value="1-Many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-79" target="f8ZMk2chCt_CFVTAONVA-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-76" value="1-Many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-79" target="f8ZMk2chCt_CFVTAONVA-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-79" target="f8ZMk2chCt_CFVTAONVA-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-78" value="1-Many" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f8ZMk2chCt_CFVTAONVA-77">
+          <mxGeometry x="-0.2833" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-79" value="Amazon TV" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="535" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-80" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="415" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-81" value="Genre" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="415" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-82" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="535" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-83" value="Title" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="535" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-84" value="Watch History" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="645" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-85" value="1-Many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-89" target="f8ZMk2chCt_CFVTAONVA-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-86" value="1-Many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-89" target="f8ZMk2chCt_CFVTAONVA-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f8ZMk2chCt_CFVTAONVA-89" target="f8ZMk2chCt_CFVTAONVA-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-88" value="1-Many" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f8ZMk2chCt_CFVTAONVA-87">
+          <mxGeometry x="-0.2833" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-89" value="Amazon Music" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-90" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="230" y="530" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-91" value="Podcasts" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="230" y="530" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-92" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="350" y="530" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-93" value="Songs" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="350" y="530" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f8ZMk2chCt_CFVTAONVA-94" value="History" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="460" y="530" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
